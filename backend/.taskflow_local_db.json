@@ -1,0 +1,450 @@
+{
+  "users": [
+    {
+      "id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Alex Johnson",
+      "email": "demo@taskflow.dev",
+      "password_hash": "$2a$10$TJ2XfDxBaqv.GaZbkK8SY.nghjEkhiTr20OfA91l46oXKrxiFkx6a",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-28T07:26:56.868Z",
+      "updated_at": "2026-09-28T07:26:56.868Z"
+    },
+    {
+      "id": "9069c2b2-3395-45d6-8f54-ecf25fee109d",
+      "name": "User Alpha",
+      "email": "usera_1790580446281@example.com",
+      "password_hash": "$2a$10$vbfJNuDpIPAzCMmgu/Uc5elng8hU8ClPVhcpCYd5Lw.rY8ue/wPmO",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=User%20Alpha",
+      "created_at": "2026-09-28T07:27:26.398Z",
+      "updated_at": "2026-09-28T07:27:26.398Z"
+    },
+    {
+      "id": "73c44c84-df99-4c35-9751-a8df5f579e95",
+      "name": "User Beta",
+      "email": "userb_1790580446281@example.com",
+      "password_hash": "$2a$10$XCram75z/jg08uCoXeULIO7mQ3WzLsekhEWT18ffej41Dz56O2xHu",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=User%20Beta",
+      "created_at": "2026-09-28T07:27:26.513Z",
+      "updated_at": "2026-09-28T07:27:26.513Z"
+    },
+    {
+      "id": "ed71bf0d-d0c1-4100-81fb-47ce00b1cb5c",
+      "name": "User Alpha",
+      "email": "usera_1790580478104@example.com",
+      "password_hash": "$2a$10$EzCY5Rw5FFNGkHAWxnUW/ujA2EsTn/BoRx9bTzac/WcUQA5vmbsVy",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=User%20Alpha",
+      "created_at": "2026-09-28T07:27:58.213Z",
+      "updated_at": "2026-09-28T07:27:58.213Z"
+    },
+    {
+      "id": "a07db03f-2045-4b72-ad12-428d0bcdf5df",
+      "name": "User Beta",
+      "email": "userb_1790580478104@example.com",
+      "password_hash": "$2a$10$vS2wgLA.hcLz9V1xsoFyS.xg1ONiAiiV2QN1vHuwOpP1Iin6OBbjq",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=User%20Beta",
+      "created_at": "2026-09-28T07:27:58.299Z",
+      "updated_at": "2026-09-28T07:27:58.299Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "9a083584-c4dc-4016-8283-af9dcd68ee8a",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "College & Academics",
+      "description": "Courses, assignments, and exam prep for Semester",
+      "color": "#6366f1",
+      "created_at": "2026-09-28T07:26:56.874Z",
+      "updated_at": "2026-09-28T07:26:56.874Z"
+    },
+    {
+      "id": "7bf7872a-df7f-4f72-8d68-a0031bae7d27",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Work & Career",
+      "description": "Job applications, portfolio enhancements, and client deliverables",
+      "color": "#0ea5e9",
+      "created_at": "2026-09-28T07:26:56.875Z",
+      "updated_at": "2026-09-28T07:26:56.875Z"
+    },
+    {
+      "id": "ad986326-b143-4e15-b542-d7bcc047eb65",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Personal & Fitness",
+      "description": "Habits, workouts, nutrition, and home errands",
+      "color": "#10b981",
+      "created_at": "2026-09-28T07:26:56.877Z",
+      "updated_at": "2026-09-28T07:26:56.877Z"
+    },
+    {
+      "id": "856f9cd0-99e4-4e40-b73e-d1636d806789",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Open Source",
+      "description": "Contributing to open source dev tools and libraries",
+      "color": "#f59e0b",
+      "created_at": "2026-09-28T07:26:56.878Z",
+      "updated_at": "2026-09-28T07:26:56.878Z"
+    },
+    {
+      "id": "7d777938-ec60-463f-a985-6fb29ad9e751",
+      "user_id": "9069c2b2-3395-45d6-8f54-ecf25fee109d",
+      "name": "Alpha Project",
+      "description": "Project belonging to User Alpha",
+      "color": "#6366f1",
+      "created_at": "2026-09-28T07:27:26.709Z",
+      "updated_at": "2026-09-28T07:27:26.709Z"
+    },
+    {
+      "id": "5b797da4-738e-4392-a0a0-96a0ec69aa8e",
+      "user_id": "ed71bf0d-d0c1-4100-81fb-47ce00b1cb5c",
+      "name": "Alpha Project",
+      "description": "Project belonging to User Alpha",
+      "color": "#6366f1",
+      "created_at": "2026-09-28T07:27:58.460Z",
+      "updated_at": "2026-09-28T07:27:58.460Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "db7aeb3e-1a90-4610-b068-7883579249bc",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "9a083584-c4dc-4016-8283-af9dcd68ee8a",
+      "title": "Complete React assignment",
+      "description": "Implement state management, unit tests, and accessible form inputs.",
+      "status": "in_progress",
+      "priority": "high",
+      "due_date": "2026-09-29",
+      "due_time": "17:00",
+      "estimated_minutes": 90,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:26:56.889Z",
+      "updated_at": "2026-09-28T07:26:56.889Z"
+    },
+    {
+      "id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "9a083584-c4dc-4016-8283-af9dcd68ee8a",
+      "title": "Prepare for Mathematics exam",
+      "description": "Review permutations, combinations, and probability theory.",
+      "status": "todo",
+      "priority": "urgent",
+      "due_date": "2026-09-27",
+      "due_time": "09:00",
+      "estimated_minutes": 120,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:26:56.901Z",
+      "updated_at": "2026-09-28T07:26:56.901Z"
+    },
+    {
+      "id": "c677e024-0493-43c2-915e-c797c3747c9f",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "7bf7872a-df7f-4f72-8d68-a0031bae7d27",
+      "title": "Finish REST API documentation",
+      "description": "Document authentication headers, query params, and error codes for Swagger.",
+      "status": "todo",
+      "priority": "medium",
+      "due_date": "2026-09-28",
+      "due_time": "14:30",
+      "estimated_minutes": 45,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:26:56.913Z",
+      "updated_at": "2026-09-28T07:26:56.913Z"
+    },
+    {
+      "id": "9d374264-22c2-45db-990f-3d6c77869bb4",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "ad986326-b143-4e15-b542-d7bcc047eb65",
+      "title": "Morning 5K run and stretching",
+      "description": "Target pace under 5:30/km.",
+      "status": "completed",
+      "priority": "low",
+      "due_date": "2026-09-28",
+      "due_time": null,
+      "estimated_minutes": 30,
+      "recurrence": "daily",
+      "completed_at": "2026-09-28T07:26:56.918Z",
+      "created_at": "2026-09-28T07:26:56.915Z",
+      "updated_at": "2026-09-28T07:26:56.918Z"
+    },
+    {
+      "id": "fdb7d8a4-01de-486a-abd7-072ec385129e",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "7bf7872a-df7f-4f72-8d68-a0031bae7d27",
+      "title": "Sprint planning and backlog grooming",
+      "description": "Estimate user stories with tech lead.",
+      "status": "completed",
+      "priority": "high",
+      "due_date": "2026-09-27",
+      "due_time": null,
+      "estimated_minutes": 60,
+      "recurrence": "none",
+      "completed_at": "2026-09-27T07:26:56.922Z",
+      "created_at": "2026-09-28T07:26:56.920Z",
+      "updated_at": "2026-09-28T07:26:56.922Z"
+    },
+    {
+      "id": "91dae057-2c34-4bbf-936a-52936dde46a3",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "856f9cd0-99e4-4e40-b73e-d1636d806789",
+      "title": "Review pull request #142 for UI bugfix",
+      "description": "Verified CSS grid alignment on Firefox.",
+      "status": "completed",
+      "priority": "medium",
+      "due_date": "2026-09-26",
+      "due_time": null,
+      "estimated_minutes": 20,
+      "recurrence": "none",
+      "completed_at": "2026-09-26T07:26:56.927Z",
+      "created_at": "2026-09-28T07:26:56.924Z",
+      "updated_at": "2026-09-28T07:26:56.927Z"
+    },
+    {
+      "id": "81152f92-46c5-40f9-b459-34d9d4098e2f",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "9a083584-c4dc-4016-8283-af9dcd68ee8a",
+      "title": "Submit Database Management Lab 3",
+      "description": "PostgreSQL indexing and query optimization report.",
+      "status": "completed",
+      "priority": "urgent",
+      "due_date": "2026-09-25",
+      "due_time": null,
+      "estimated_minutes": 90,
+      "recurrence": "none",
+      "completed_at": "2026-09-25T07:26:56.931Z",
+      "created_at": "2026-09-28T07:26:56.929Z",
+      "updated_at": "2026-09-28T07:26:56.931Z"
+    },
+    {
+      "id": "16113590-d517-46b7-b69e-d9f31fac33a4",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "ad986326-b143-4e15-b542-d7bcc047eb65",
+      "title": "Schedule annual dental checkup",
+      "description": "Call Dr. Martin clinic for Thursday slot.",
+      "status": "todo",
+      "priority": "low",
+      "due_date": "2026-10-01",
+      "due_time": null,
+      "estimated_minutes": 15,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:26:56.934Z",
+      "updated_at": "2026-09-28T09:03:56.606Z"
+    },
+    {
+      "id": "80feb5f4-a7cc-4c79-ab32-3e520442b204",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "project_id": "856f9cd0-99e4-4e40-b73e-d1636d806789",
+      "title": "Refactor state machine for auth flow",
+      "description": "Migrate legacy callback handlers to async/await.",
+      "status": "todo",
+      "priority": "high",
+      "due_date": "2026-10-03",
+      "due_time": null,
+      "estimated_minutes": 75,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:26:56.936Z",
+      "updated_at": "2026-09-28T09:03:58.115Z"
+    },
+    {
+      "id": "bf5c6881-e1fb-4062-8313-622c323ab653",
+      "user_id": "9069c2b2-3395-45d6-8f54-ecf25fee109d",
+      "project_id": "7d777938-ec60-463f-a985-6fb29ad9e751",
+      "title": "User A Secret Task",
+      "description": "Confidential details",
+      "status": "todo",
+      "priority": "high",
+      "due_date": "2026-10-15",
+      "due_time": null,
+      "estimated_minutes": 60,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:27:26.735Z",
+      "updated_at": "2026-09-28T07:27:26.810Z"
+    },
+    {
+      "id": "e72e30ae-02b4-4152-91a5-21ba8cf95e3e",
+      "user_id": "73c44c84-df99-4c35-9751-a8df5f579e95",
+      "project_id": null,
+      "title": "User B Task",
+      "description": "",
+      "status": "todo",
+      "priority": "medium",
+      "due_date": null,
+      "due_time": null,
+      "estimated_minutes": 0,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:27:26.748Z",
+      "updated_at": "2026-09-28T07:27:26.748Z"
+    },
+    {
+      "id": "1a3554fb-4c79-4f5f-b115-187d1d25a990",
+      "user_id": "ed71bf0d-d0c1-4100-81fb-47ce00b1cb5c",
+      "project_id": "5b797da4-738e-4392-a0a0-96a0ec69aa8e",
+      "title": "User A Secret Task",
+      "description": "Confidential details",
+      "status": "todo",
+      "priority": "high",
+      "due_date": "2026-10-15",
+      "due_time": null,
+      "estimated_minutes": 60,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:27:58.475Z",
+      "updated_at": "2026-09-28T07:27:58.517Z"
+    },
+    {
+      "id": "c7e89356-5953-466d-b2c2-4471304f55dd",
+      "user_id": "a07db03f-2045-4b72-ad12-428d0bcdf5df",
+      "project_id": null,
+      "title": "User B Task",
+      "description": "",
+      "status": "todo",
+      "priority": "medium",
+      "due_date": null,
+      "due_time": null,
+      "estimated_minutes": 0,
+      "recurrence": "none",
+      "completed_at": null,
+      "created_at": "2026-09-28T07:27:58.482Z",
+      "updated_at": "2026-09-28T07:27:58.482Z"
+    }
+  ],
+  "subtasks": [
+    {
+      "id": "3cd6bcaf-d7d5-48bf-911c-8dfdb1b78d42",
+      "task_id": "db7aeb3e-1a90-4610-b068-7883579249bc",
+      "title": "Set up component hierarchy",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.892Z",
+      "updated_at": "2026-09-28T07:26:56.892Z"
+    },
+    {
+      "id": "27f0c335-a01b-4fe8-9080-1139ee20ed05",
+      "task_id": "db7aeb3e-1a90-4610-b068-7883579249bc",
+      "title": "Write integration tests",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.895Z",
+      "updated_at": "2026-09-28T07:26:56.895Z"
+    },
+    {
+      "id": "cbb31d90-bc82-45d4-9499-0c3a794eec13",
+      "task_id": "db7aeb3e-1a90-4610-b068-7883579249bc",
+      "title": "Implement custom hooks",
+      "completed": true,
+      "created_at": "2026-09-28T07:26:56.897Z",
+      "updated_at": "2026-09-28T07:26:56.900Z"
+    },
+    {
+      "id": "e542865d-3418-461f-b8a0-e22a4273545a",
+      "task_id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "title": "Revise probability",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.905Z",
+      "updated_at": "2026-09-28T07:26:56.905Z"
+    },
+    {
+      "id": "9efa77f9-6c08-4b63-9506-c0399b27d1c4",
+      "task_id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "title": "Revise permutations",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.907Z",
+      "updated_at": "2026-09-28T07:26:56.907Z"
+    },
+    {
+      "id": "82b7ca90-3ccf-444c-adc0-4ed431da4b93",
+      "task_id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "title": "Practice binomial theorem",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.909Z",
+      "updated_at": "2026-09-28T07:26:56.909Z"
+    },
+    {
+      "id": "ef5e785b-1d80-4328-b277-538c83dc15da",
+      "task_id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "title": "Solve 2024 previous papers",
+      "completed": false,
+      "created_at": "2026-09-28T07:26:56.912Z",
+      "updated_at": "2026-09-28T07:26:56.912Z"
+    },
+    {
+      "id": "4b072346-88b9-48d2-8446-c2ff43a0449a",
+      "task_id": "bf5c6881-e1fb-4062-8313-622c323ab653",
+      "title": "Subtask 1 for Alpha",
+      "completed": true,
+      "created_at": "2026-09-28T07:27:26.825Z",
+      "updated_at": "2026-09-28T07:27:26.845Z"
+    },
+    {
+      "id": "b42ed56e-7f1b-4dce-882f-40de51440d64",
+      "task_id": "1a3554fb-4c79-4f5f-b115-187d1d25a990",
+      "title": "Subtask 1 for Alpha",
+      "completed": true,
+      "created_at": "2026-09-28T07:27:58.526Z",
+      "updated_at": "2026-09-28T07:27:58.538Z"
+    }
+  ],
+  "labels": [
+    {
+      "id": "b1789f96-4449-45f8-8b1c-1ce67ea68fc0",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "High Priority",
+      "color": "#ef4444",
+      "created_at": "2026-09-28T07:26:56.880Z"
+    },
+    {
+      "id": "d1386415-ae48-4f93-8e41-079dce56efc4",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Frontend",
+      "color": "#3b82f6",
+      "created_at": "2026-09-28T07:26:56.882Z"
+    },
+    {
+      "id": "9e122425-be8f-4102-a664-aba7d931ada3",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Backend",
+      "color": "#8b5cf6",
+      "created_at": "2026-09-28T07:26:56.883Z"
+    },
+    {
+      "id": "112c3af6-64e9-462c-9279-bc47860b561f",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Exam Prep",
+      "color": "#ec4899",
+      "created_at": "2026-09-28T07:26:56.884Z"
+    },
+    {
+      "id": "92773f51-8d53-4088-96e1-8e1a6f6eaed6",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "name": "Health",
+      "color": "#10b981",
+      "created_at": "2026-09-28T07:26:56.886Z"
+    }
+  ],
+  "task_labels": [
+    {
+      "task_id": "db7aeb3e-1a90-4610-b068-7883579249bc",
+      "label_id": "d1386415-ae48-4f93-8e41-079dce56efc4"
+    },
+    {
+      "task_id": "43337ab3-1370-407d-a66d-5be78bc5a2e3",
+      "label_id": "112c3af6-64e9-462c-9279-bc47860b561f"
+    },
+    {
+      "task_id": "c677e024-0493-43c2-915e-c797c3747c9f",
+      "label_id": "9e122425-be8f-4102-a664-aba7d931ada3"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "a68f23cf-750a-4f1f-a4df-1ba321f61d1e",
+      "user_id": "9bd53b87-57e2-4c6d-b5ee-e3e5f8e0970d",
+      "task_id": "c677e024-0493-43c2-915e-c797c3747c9f",
+      "remind_at": "2026-09-28T09:26:56.938Z",
+      "is_completed": false,
+      "created_at": "2026-09-28T07:26:56.938Z"
+    }
+  ]
+}

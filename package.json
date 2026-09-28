@@ -1,0 +1,23 @@
+{
+  "name": "taskflow-workspace",
+  "version": "1.0.0",
+  "description": "TaskFlow - Production-grade full-stack task management application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install",
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "test:backend": "npm.cmd --prefix backend test",
+    "seed": "npm.cmd --prefix backend run seed"
+  },
+  "keywords": [
+    "taskflow",
+    "todo",
+    "react",
+    "express",
+    "supabase",
+    "postgresql"
+  ],
+  "author": "TaskFlow Team",
+  "license": "MIT"
+}
